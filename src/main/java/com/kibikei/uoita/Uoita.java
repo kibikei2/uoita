@@ -9,7 +9,7 @@ import org.slf4j.LoggerFactory;
 
 public class Uoita implements ModInitializer {
 
-	public static final String MOD_ID = "unit";
+	public static final String MOD_ID = "uoita";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 	@Override
 	public void onInitialize() {
