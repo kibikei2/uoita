@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.kibikei.uoita.UoitaDataGenerator"
+		],
+		"client": [
+			"com.kibikei.uoita.UoitaClient"
 		]
 	},
 	"mixins": [
