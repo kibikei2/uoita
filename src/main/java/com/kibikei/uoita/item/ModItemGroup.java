@@ -2,6 +2,7 @@ package com.kibikei.uoita.item;
 
 
 import com.kibikei.uoita.Uoita;
+import com.kibikei.uoita.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -16,6 +17,7 @@ public class ModItemGroup {
             FabricItemGroup.builder().displayName(Text.translatable("itemGroup.uoita_group"))
                     .icon(()->new ItemStack(ModItems.WAND)).entries((displayContext, entries) -> {
                         entries.add(ModItems.WAND);
+                        entries.add(ModBlocks.EDITING_TABLE);
                     }).build());
     public static void registerModItemGroup(){
 

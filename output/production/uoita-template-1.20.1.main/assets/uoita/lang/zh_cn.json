@@ -1,4 +1,5 @@
 {
   "item.uoita.wand": "魔杖",
-  "itemGroup.uoita_group": "UOITA物品栏"
+  "itemGroup.uoita_group": "UOITA物品栏",
+  "block.uoita.editing_table": "编辑台"
 }

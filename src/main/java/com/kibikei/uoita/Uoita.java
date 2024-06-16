@@ -1,5 +1,6 @@
 package com.kibikei.uoita;
 
+import com.kibikei.uoita.block.ModBlocks;
 import com.kibikei.uoita.item.ModItemGroup;
 import com.kibikei.uoita.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -18,6 +19,6 @@ public class Uoita implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
 		ModItemGroup.registerModItemGroup();
-
+		ModBlocks.registerModBlocks();
 	}
 }
